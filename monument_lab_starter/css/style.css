@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css?family=Lato%7CRaleway:400,600');
+
+/* ----------------------------------------
+Base Styles
+------------------------------------------- */
+/* Note: Makes sure that padding and the border are included in the width for each element. */
+/* Don't add anything else under the * selector! */
+* {
+	box-sizing: border-box;
+}
+body {
+	font-family: "Raleway";
+	font-weight: 600;
+
+
+	text-align: center;
+
+}
+nav {
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+nav a {
+	color: #7B98AA;
+	text-transform: uppercase;
+	margin-left: 50px;
+	margin-right: 50px;
+	text-decoration: none;
+	font-size: 16px;
+}
+img {
+	max-width: 100%;
+}
+header {
+
+	background-image: url('../images/home_header_bg.jpg');
+	padding: 210px;
+	background-size: cover;
+	background-position: center;
+}
+h1 a {
+	letter-spacing: 18px;
+	color: white;
+	text-decoration: none;
+	font-size: 37px;
+	text-transform: uppercase;
+}
+main {
+	max-width: 1040px;
+	margin: 0 auto;
+}
+
+
+header h2 {
+	font-weight: 600;
+	color: white;
+	font-size: 23px;
+	margin-bottom: 100px;
+	text-transform: uppercase;
+}
+main h2 {
+	padding: 50px;
+}
+.article-grid {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-gap: 10px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+.article-grid button {
+	background-color: transparent;
+	border: 2px solid grey;
+}
+.article-grid p {
+	color: #7B98AA;
+	font-family: "Lato";
+	font-weight: 400;
+	font-size: 15px;
+}
+.gallery-grid {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-gap: 10px;
+
+	padding-right: 20px;
+}
+.background-color {
+	padding: 80px 5;
+	background-color: #c9ebf0;
+	padding-bottom: 60px;
+}
+.background-color p {
+	font-family: "lato";
+	font-weight: 400;
+	font-size: 13px;
+	margin-left: 100px;
+	margin-right: 100px;
+
+}
+#More {
+	padding: 30px;
+	text-transform: uppercase;
+}
+article button {
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 13px;
+}
+article h2, h3 {
+	color: #44545e;
+	text-transform: uppercase;
+	font-size: 15px;
+}
+
+div img {
+	padding: 10px 15px 10px 15px;
+}
+div article {
+	padding-left: 15px;
+	padding-right: 15px;
+}
+div h3 {
+	color: #44545E
+	font-size: 18px;
+	padding-left: 10px;
+	padding-right: 10px;
+
+}
+/* ----------------------------------------
+Header
+------------------------------------------- */
+
+
+/* ----------------------------------------
+Buttons
+------------------------------------------- */
+
+footer {
+	background-color: #9CD8E8;
+	padding: 50px;
+
+}
+footer a {
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-top: 40px;
+	padding-bottom: 40px;
+	
+}
+footer button {
+	background-color: transparent;
+	border: 2px solid grey;
+}
+footer p {
+	padding-top: 30px;
+	font-family: "lato";
+	font-weight: 400;
+	padding-right: 20px;
+	padding-right: 20px;
+	font-size: 13px;
+}
+.type footer {
+	padding-left: 20px;
+	padding-right: 2px;
+}
+hr {
+	border: 1px solid black;
+
+}
+/* ----------------------------------------
+Footer
+------------------------------------------- */
