@@ -1,0 +1,48 @@
+
+/* --------------------------------------------------------------------------
+Base styles:
+----------------------------------------------------------------------------- */
+/* Fix to include padding and border in the total width for each element */
+* {
+  box-sizing: border-box;
+}
+
+/* Fix for responsive images */
+img {
+  max-width: 100%;
+}
+header {
+  background-image: url('../img/familygrandpa.jpeg');
+  height: 100vh;
+  background-position: center;
+  background-attachment: fixed;
+}
+header h1 {
+  font-family: 'Spectral SC',sans-serif;
+  text-align: center;
+  font-size: 39px;
+  letter-spacing: 2px;
+
+}
+nav {
+  text-align: center;
+}
+nav a {
+  text-align: center;
+  font-family:'rubik';
+  font-size: 20px;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+p {
+  text-align: center;
+  font-size: 15px;
+  font-family: 'Spectral SC';
+}
+.photo_grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 10px;
+}
