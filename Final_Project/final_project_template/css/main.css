@@ -3,46 +3,122 @@
 Base styles:
 ----------------------------------------------------------------------------- */
 /* Fix to include padding and border in the total width for each element */
-* {
+/** {
   box-sizing: border-box;
-}
+}*/
 
 /* Fix for responsive images */
 img {
-  max-width: 100%;
+  max-width: 75%;
+
 }
-header {
-  background-image: url('../img/familygrandpa.jpeg');
-  height: 100vh;
-  background-position: center;
-  background-attachment: fixed;
+.full_page_purple {
+  background: #D3CCE3;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #E9E4F0, #D3CCE3);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #E9E4F0, #D3CCE3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 }
-header h1 {
+
+ h1 {
   font-family: 'Spectral SC',sans-serif;
   text-align: center;
-  font-size: 39px;
-  letter-spacing: 2px;
-
+  font-size: 50px;
+  letter-spacing: 5px;
+  background-color: #974C7E;
+  color: white;
+  opacity: .8;
+  margin-left: 18%;
+  margin-right: 18%;
+  border: 2px #974C7E;
+  border-radius: 10px;
+}
+button {
+  cursor: pointer;
+  outline: 0;
+  border: 3px black;
+  color: red;
+  padding: 5px;
+  margin-left: 500px;
+  background-color: white;
+  text-transform: uppercase;
+  font-size: 19.5px;
+  transition: all .3s ease-in-out;
+}
+button:hover {
+  background-color: pink;
+  color: white;
 }
 nav {
   text-align: center;
+
+
 }
 nav a {
   text-align: center;
-  font-family:'rubik';
+  font-family:'Oswald';
   font-size: 20px;
   text-decoration: none;
   text-transform: uppercase;
   padding-left: 20px;
   padding-right: 20px;
+  margin: 20px;
+  letter-spacing: 3px;
+
+
+
 }
 p {
   text-align: center;
   font-size: 15px;
   font-family: 'Spectral SC';
+
+
 }
 .photo_grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-gap: 10px;
+}
+
+ #familymembers {
+   display: flex;
+    flex-wrap: wrap;
+ }
+
+ .row1 {
+   width: 100%;
+   flex-basis: 100%;
+   text-align: center;
+   display: none;
+ }
+ .col2 {
+
+   width: 50%;
+   flex-basis: 50%;
+   text-align: center;
+   display: none;
+ }
+
+ .col3 {
+
+   /*width: 25%;
+   flex-basis: 25%;
+   text-align: center;*/
+ }
+
+.modal {
+  background-color: #D5F1ED;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  justify-content: center;
+  align-items: center;
+  display: none;
+  padding: 15px;
+  width: 33%;
+  margin-left: 33%;
+  margin-top: -75px;
+
+  /*width: 200px;*/
 }
